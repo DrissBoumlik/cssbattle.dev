@@ -1,0 +1,85 @@
+$yellow : #998235
+$green: #1A4341
+$blue: #0B2429
+$white: #FFFFFF
+*
+    box-sizing: border-box
+body
+    background-color: $yellow
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 180px
+    .left, .right
+        position: relative
+        border-radius: 50%
+        height: 100%
+        width: 80px
+        overflow: hidden
+        background-color: $green
+        .ear
+            position: relative
+            width: 80%
+            border-radius: 50%
+            height: 100%
+            background-color: $blue
+            // border: 15px solid
+    .left 
+        z-index: 0
+        margin-right: -6%
+        .ear
+            left: 20%
+    .right
+        margin-left: -6%
+    .head
+        position: relative
+        z-index: 1
+        height: 100%
+        width: 180px
+        background-color: $green
+        border-radius: 50%
+        .eyes
+            justify-self: center
+            position: absolute
+            left: 50%
+            top: 55.5%
+            transform: translate(-50%, -50%)
+            display: flex
+            column-gap: 20px
+            height: 20px
+            overflow: hidden
+            .eye
+                position: relative
+                top: -20px
+                height: 40px
+                width: 40px
+                background-color: $blue
+                border-radius: 50%
+                border: 10px solid $yellow
+    .nose-wrapper
+        // position: relative
+        position: absolute
+        bottom: -70px
+        left: 50%
+        transform: translateX(-50%)
+        .nose
+            height: 120px
+            width: 120px
+            border-radius: 50%
+            border: 20px solid
+            transform: rotate(-45deg)
+            border-color: $white $white transparent transparent
+        .nose-line
+            width: 40px
+            height: 500px
+            background-color: $blue
+            position: absolute
+            top: -10px
+            left: 50%
+            transform: translateX(-50%)
+            border-radius: 50px 50px 0 0
