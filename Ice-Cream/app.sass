@@ -1,0 +1,36 @@
+$purple: #293462
+$beige: #FFF1C1
+$orangered: #FE5F55
+$brown: #A64942
+
+*
+    box-sizing: border-box
+body
+    background-color: $purple
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .ice-cream
+        height: 150px
+        width: 100px
+        border-radius: 70px 70px 30px 30px
+        background-color: $beige
+        position: relative
+        &:after
+            content: ''
+            position: absolute
+            height: 10px
+            width: 30%
+            background-color: $brown
+            bottom: -10px
+            left: calc(50% - 15%)
+            
+    .stick
+        z-index: -1
+        margin: -20px auto 0
+        height: 70px
+        width: 30%
+        background-color: $orangered
+        border-radius: 10px

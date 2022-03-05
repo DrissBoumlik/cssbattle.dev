@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #293462;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .ice-cream {
+  height: 150px;
+  width: 100px;
+  border-radius: 70px 70px 30px 30px;
+  background-color: #FFF1C1;
+  position: relative;
+}
+.wrapper .ice-cream:after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 30%;
+  background-color: #A64942;
+  bottom: -10px;
+  left: calc(50% - 15%);
+}
+.wrapper .stick {
+  z-index: -1;
+  margin: -20px auto 0;
+  height: 70px;
+  width: 30%;
+  background-color: #FE5F55;
+  border-radius: 10px;
+}
