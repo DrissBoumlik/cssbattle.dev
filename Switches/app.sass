@@ -1,0 +1,35 @@
+$purple: #62306D
+$yellow: #F7EC7D
+$dark-red: #AA445F
+$orange: #E38F66
+
+*
+    box-sizing: border-box
+body
+    background-color: $purple
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+    column-gap: 40px
+    .circle
+        height: 100px
+        width: 100px
+        background-color: $yellow
+        border-radius: 50%
+        position: relative
+        &:before
+            content: ''
+            height: 150px
+            width: 100%
+            position: absolute
+            border-radius: 50px
+            z-index: -1
+        &.left:before
+            bottom: 0
+            background-color: $dark-red
+        &.right:before
+            top: 0
+            background-color: $orange
