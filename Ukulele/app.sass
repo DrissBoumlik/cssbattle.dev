@@ -1,0 +1,78 @@
+*
+    box-sizing: border-box
+body
+    background-color: #F3AC3C
+
+.wrapper
+    position: absolute
+    left: 57%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+    align-items: center
+.circle-container
+    display: flex
+    align-items: center
+.lg-circle
+    height: 120px
+    width: 120px
+    background-color: #998235
+    border-radius: 50%
+    position: relative
+    &:after
+        content: ''
+        position: absolute
+        width: 10px
+        height: 33%
+        background-color: #1A4341
+        border-radius: 5px
+        top: 50%
+        left: 33%
+        transform: translateY(-50%)
+.xm-circle
+    margin-left: -22%
+    height: 97.8px
+    width: 97.8px
+    background-color: #998235
+    border-radius: 50%
+    position: relative
+.xs-circle
+    width: 50%
+    height: 50%
+    border-radius: 50%
+    border: 5px solid #F3AC3C
+    background-color: #1A4341
+    position: absolute
+    top: 50%
+    left: 25%
+    transform: translateY(-50%)
+.guitare-hand
+    margin-left: -17%
+    z-index: -1
+    position: relative
+    right: 0
+    // transform: translateX(50%)
+    height: 20px
+    width: 150px
+    background-color: #1A4341
+    .guitare-hand-end
+        height: 30px
+        width: 40px
+        border-radius: 10px
+        background-color: #998235
+        right: -5px
+        top: -5px
+        position: absolute
+        &:after, &:before
+            content: ''
+            position: absolute
+            height: 4px
+            width: 50%
+            background-color: #1A4341
+            left: 50%
+            transform: translateX(-50%)
+            border-radius: 5px
+        &::before
+            top: 25%
+        &:after
+            bottom: 26%
