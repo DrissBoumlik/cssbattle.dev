@@ -1,0 +1,58 @@
+$purple: #293462
+$orangered: #FE5F55
+$yellow: #FFF1C1
+
+*
+    box-sizing: border-box
+body
+    background-color: $purple
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .face
+        height: 200px
+        width: 200px
+        background-color: $orangered
+        border-radius: 50% 50% 25% 25%
+        position: relative
+        overflow: hidden
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        .hear
+            &:before, &:after
+                content: ''
+                position: absolute
+                height: 100px
+                width: 100px
+                border-radius: 50%
+                background-color: $yellow
+                top: -50px
+            &::before
+                left: 0
+            &:after
+                right: 0
+        .eyes
+            margin-top: 40px
+            height: 60px
+            width: 80%
+            position: relative
+            &:before, &:after
+                content: ''
+                position: absolute
+                height: 100%
+                width: 60px
+                background-color: $yellow
+                border-radius: 50%
+            &:after
+                right: 0
+        .mouth
+            height: 10px
+            width: 20%
+            background-color: $yellow
+            position: absolute
+            border-radius: 5px
+            bottom: 20px

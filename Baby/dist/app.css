@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #293462;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .face {
+  height: 200px;
+  width: 200px;
+  background-color: #FE5F55;
+  border-radius: 50% 50% 25% 25%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper .face .hear:before, .wrapper .face .hear:after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #FFF1C1;
+  top: -50px;
+}
+.wrapper .face .hear::before {
+  left: 0;
+}
+.wrapper .face .hear:after {
+  right: 0;
+}
+.wrapper .face .eyes {
+  margin-top: 40px;
+  height: 60px;
+  width: 80%;
+  position: relative;
+}
+.wrapper .face .eyes:before, .wrapper .face .eyes:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 60px;
+  background-color: #FFF1C1;
+  border-radius: 50%;
+}
+.wrapper .face .eyes:after {
+  right: 0;
+}
+.wrapper .face .mouth {
+  height: 10px;
+  width: 20%;
+  background-color: #FFF1C1;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 20px;
+}
