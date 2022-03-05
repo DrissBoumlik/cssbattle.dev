@@ -19,3 +19,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Blossom - [Challenge Link](https://cssbattle.dev/play/25) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Blossom)
 * Totally-Triangle - [Challenge Link](https://cssbattle.dev/play/13) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Totally-Triangle)
 * Web-Maker-Logo - [Challenge Link](https://cssbattle.dev/play/14) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Web-Maker-Logo)
+* Lock-Up - [Challenge Link](https://cssbattle.dev/play/27) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Lock-Up)

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E38F66;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #AA445F;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.wrapper .side {
+  height: 140px;
+  width: 140px;
+  background-color: transparent;
+  border: 30px solid;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+.wrapper .side.side-1 {
+  border-color: transparent #F7EC7D transparent transparent;
+}
+.wrapper .side.side-2 {
+  border-color: transparent transparent transparent #F7EC7D;
+}

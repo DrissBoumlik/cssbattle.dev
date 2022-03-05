@@ -1,0 +1,31 @@
+$orange: #E38F66
+$dark-red: #AA445F
+$yellow: #F7EC7D
+
+*
+    box-sizing: border-box
+body
+    background-color: $orange
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    background-color: $dark-red
+    height: 200px
+    width: 200px
+    border-radius: 50%
+    .side
+        height: 140px
+        width: 140px
+        background-color: transparent
+        border: 30px solid 
+        border-radius: 50%
+        position: absolute
+        right: 30px
+        top: 30px
+        transform: rotate(-45deg)
+        &.side-1
+            border-color:  transparent $yellow transparent transparent
+        &.side-2
+            border-color:  transparent transparent transparent $yellow
