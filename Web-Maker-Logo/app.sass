@@ -1,0 +1,40 @@
+$yellow: #F2F2B6
+$orange: #FF6D00
+$orangered: #FD4602
+
+*
+    box-sizing: border-box
+body
+    background-color: $yellow
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+    flex-direction: row
+    width: 280px
+    height: 130px
+    .left, .right
+        border: 75px solid
+        position: relative
+    .left
+        border-color: $orange transparent transparent transparent
+        border-width: 130px 75px 0 75px
+        &.left-2
+            z-index: -1
+            position: absolute
+            left: 20px
+            border-color: $orangered transparent transparent transparent
+            border-width: 130px 75px 0 75px
+    .right
+        position: absolute
+        right: 0
+        bottom: 0
+        border-color: transparent transparent $orange transparent
+        border-width: 0 75px 130px 75px
+        &.right-2
+            position: absolute
+            right: 20px
+            border-color: transparent transparent $orangered transparent
+            border-width: 0 75px 130px 75px
