@@ -1,0 +1,89 @@
+$yellow: #F3AC3C
+$oil: #998235
+$green: #1A4341
+$white: #FFFFFF
+*
+    box-sizing: border-box
+body
+    background-color: $yellow
+.wrapper
+    position: absolute
+    left: 50%
+    top: 48.2%
+    transform: translate(-50%, -50%)
+    display: flex
+    flex-direction: column
+    .face
+        height: 150px
+        width: 150px
+        border-radius: 50% 50% 40% 40%
+        background-color: $oil
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        overflow: hidden
+        position: relative
+        &:before
+            z-index: 0
+            content: ''
+            height: 40px
+            width: 40px
+            position: absolute
+            background-color: $green
+            top: 6px
+            transform: rotate(45deg) translate(-50%, -50%)
+    .eyes
+        margin-top: -10px
+        width: 65%
+        display: flex
+        justify-content: space-between
+        .eye
+            border-radius: 50%
+            height: 20px
+            width: 20px
+            background-color: $green
+    .mn-wrapper
+        position: absolute
+        bottom: 15px
+        width:65%
+        height: 40px
+        .nose
+            width: 10px
+            height: 70%
+            background-color: $green
+            position: absolute
+            left: 50%
+            bottom: 20px
+            transform: translateX(-50%)
+            &:after, &:before
+                position: absolute
+                content: ''
+                top: 0
+                border-radius: 20px
+                border: 10px solid
+                height: 20px
+                width: 20px
+                transform: rotate(-45deg)
+                border-color: transparent transparent $green $green
+            &::before
+                left: 0
+            &::after
+                right: 0
+    .mouth
+        height: 100%
+        width: 100%
+        border-radius: 15px 15px 40px 40px
+        background-color: $white
+    .ears
+        margin-bottom: -50px
+        margin-left: -7%
+        width: 114%
+        display: flex
+        justify-content: space-between
+        .ear
+            border: 10px solid $oil
+            border-radius: 50%
+            height: 60px
+            width: 60px
+            background-color: $green
