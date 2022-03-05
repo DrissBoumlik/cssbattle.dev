@@ -17,3 +17,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Sunset - [Challenge Link](https://cssbattle.dev/play/62) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Sunset)
 * Baby - [Challenge Link](https://cssbattle.dev/play/42) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Baby)
 * Blossom - [Challenge Link](https://cssbattle.dev/play/25) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Blossom)
+* Totally-Triangle - [Challenge Link](https://cssbattle.dev/play/13) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Totally-Triangle)
