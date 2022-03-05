@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #998235;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 53.2%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.wrapper .col {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.wrapper .col .yellow {
+  height: 30%;
+  background-color: #F3AC3C;
+}
+.wrapper .col .green {
+  height: 50%;
+  background-color: #1A4341;
+}
+.wrapper .col.col-1 .leaf {
+  border-radius: 0 50px 0 50px;
+}
+.wrapper .col.col-2 .leaf {
+  border-radius: 50px 0 50px 0;
+}
