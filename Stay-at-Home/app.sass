@@ -1,0 +1,48 @@
+$light-blue: #6592CF
+$blue: #243D83
+$yellow: #EEB850
+
+*
+    box-sizing: border-box
+body
+    background-color: $light-blue
+.wrapper
+    position: absolute
+    left: 50%
+    top: 55%
+    transform: translate(-50%, -50%)
+    .roof
+        z-index: 0
+        position: relative
+        margin: 0 auto
+        height: 130px
+        width: 130px
+        border: 70px solid
+        border-color: $blue transparent transparent $blue 
+        transform: rotate(45deg)
+    .house
+        position: relative
+        z-index: 1
+        margin-top: -70px
+        height: 100px
+        width: 150px
+        background-color: $blue
+        border-radius: 0 0 10px 10px
+        &::before
+            content: ''
+            position: absolute
+            height: 10px
+            width: 66%
+            top: -5px
+            border-radius: 5px
+            background-color: $yellow
+            margin-left: 16.5%
+        &::after
+            content: ''
+            position: absolute
+            height: 50px
+            width: 33%
+            background-color: $yellow
+            bottom: 0
+            margin-left: 33%
+            border-radius: 10px 10px 0 0
