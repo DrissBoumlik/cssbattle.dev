@@ -14,3 +14,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Mountains - [Challenge Link](https://cssbattle.dev/play/46) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Mountains)
 * Pokeball - [Challenge Link](https://cssbattle.dev/play/95) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Pokeball)
 * Stay-at-Home - [Challenge Link](https://cssbattle.dev/play/49) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Stay-at-Home)
+* Sunset - [Challenge Link](https://cssbattle.dev/play/62) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Sunset)
