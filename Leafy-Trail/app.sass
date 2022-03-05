@@ -1,0 +1,34 @@
+$black-green: #0B2429
+$yellow: #F3AC3C
+$oil:#998235
+$green: #1A4341
+*
+    box-sizing: border-box
+body
+    background-color: $black-green
+
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+    flex-direction: row
+    // width: 240px
+    .leaf
+        height: 150px
+        width: 150px
+        background-color: $yellow
+        border-radius: 100px 0
+        &.leaf-1
+            background-color: $green
+            align-self: flex-end
+        &.leaf-2
+            margin-left: -100px
+            align-self: center
+            border-top-right-radius: 0
+            background-color: $oil
+        &.leaf-3
+            margin-left: -100px
+            border-top-right-radius: 0
+            
