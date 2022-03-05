@@ -1,0 +1,33 @@
+$purple: #293462
+$yellow: #FFF1C1
+$orangered: #FE5F55
+
+*
+    box-sizing: border-box
+body
+    background-color: $purple
+
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .circle
+        position: relative
+        border-radius: 50%
+        height: 200px
+        width: 200px
+        background-color: $yellow
+        overflow: hidden
+        .front-mountain, .back-mountain
+            height: 150px
+            width: 150px
+            background-color: $orangered
+            position: absolute
+            transform: rotate(45deg)
+        .front-mountain
+            bottom: -20%
+            right: -8%
+        .back-mountain
+            left: -23%
+            bottom: -55%

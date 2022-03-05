@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #293462;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .circle {
+  position: relative;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: #FFF1C1;
+  overflow: hidden;
+}
+.wrapper .circle .front-mountain, .wrapper .circle .back-mountain {
+  height: 150px;
+  width: 150px;
+  background-color: #FE5F55;
+  position: absolute;
+  transform: rotate(45deg);
+}
+.wrapper .circle .front-mountain {
+  bottom: -20%;
+  right: -8%;
+}
+.wrapper .circle .back-mountain {
+  left: -23%;
+  bottom: -55%;
+}
