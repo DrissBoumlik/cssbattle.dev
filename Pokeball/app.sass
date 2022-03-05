@@ -1,0 +1,69 @@
+$green: #6CB3A9
+$pink: #D25B70
+$white: #FFFFFF
+$balckred: #781728
+$yellow: #F6DF96
+*
+    box-sizing: border-box
+body
+    background-color: $green
+
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+
+.circle
+    background-color: $balckred
+    height: 190px
+    width: 190px
+    border-radius: 50%
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    &:before, &:after
+        content: ''
+        position: absolute
+        height: 20px
+        width: 11px
+        background-color: $green
+        z-index: 2
+    &:before
+        left: -6px
+    &:after
+        right: -6px
+    .circle-sides
+        background-color: $white
+        height: calc(100% + 10px)
+        width: calc(100% + 10px)
+        position: absolute
+        overflow: hidden
+        top: -5px
+        left: -5px
+        border-radius: 50%
+        &:before
+            box-sizing: border-box
+            content: ''
+            position: absolute
+            height: 50%
+            width: 100%
+            background-color: $pink
+        &:after
+            box-sizing: border-box
+            content: ''
+            position: absolute
+            width: 100%
+            height: 10px
+            border: transparent solid 10px
+            background: $balckred
+            top: calc(50% - 10px)
+        
+    .center-circle
+        height: 37%
+        width: 37%
+        background-color: $yellow
+        border-radius: 50%
+        border: 10px solid $balckred
+        position: relative
