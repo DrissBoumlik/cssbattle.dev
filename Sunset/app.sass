@@ -1,0 +1,44 @@
+$dark: #191919
+$orange-light: #F2AD43
+$orange: #E08027
+$brown: #824B20
+$yellow: #FFF58F
+
+*
+    box-sizing: border-box
+body
+    background-color: $dark
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .window
+        height: 200px
+        width: 150px
+        background-color: $orange-light
+        border-radius: 100px 100px 25px 25px
+        display: flex
+        justify-content: center
+        align-items: center
+        overflow: hidden
+        position: relative
+        .sun
+            height: 60px
+            width: 60px
+            margin-top: 40px
+            background-color: $yellow
+            border-radius: 50%
+        .hill
+            position: absolute
+            height: 200px
+            width: 200px
+            border-radius: 50%
+            &.hill-1
+                background-color: $orange
+                left: -100px
+                bottom: -100px
+            &.hill-2
+                right: -100px
+                bottom: -100px
+                background-color: $brown
