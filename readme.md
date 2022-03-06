@@ -21,3 +21,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Web-Maker-Logo - [Challenge Link](https://cssbattle.dev/play/14) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Web-Maker-Logo)
 * Lock-Up - [Challenge Link](https://cssbattle.dev/play/27) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Lock-Up)
 * Switches - [Challenge Link](https://cssbattle.dev/play/24) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Switches)
+* Building-Blocks - [Challenge Link](https://cssbattle.dev/play/87) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Building-Blocks)
