@@ -1,0 +1,34 @@
+$red: #AA445F
+$yellow: #F7EC7D
+$orange: #E38F66
+
+*
+    box-sizing: border-box
+body
+    background-color: $red
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    height: 200px
+    width: 250px
+    background: $yellow
+    border-radius: 200px
+    overflow: hidden
+    &::before
+        content: ''
+        height: 100%
+        width: 100%
+        left: 50%
+        position: absolute
+        background-color: $orange
+    &::after
+        content: ''
+        position: absolute
+        height: 110%
+        top: -10px
+        width: 20%
+        background-color: $red
+        left: 40%
+        z-index: 1
