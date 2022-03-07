@@ -25,3 +25,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Snowman - [Challenge Link](https://cssbattle.dev/play/97) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Snowman)
 * Equals - [Challenge Link](https://cssbattle.dev/play/31) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Equals)
 * Bell - [Challenge Link](https://cssbattle.dev/play/68) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Bell)
+* Door-Knob - [Challenge Link](https://cssbattle.dev/play/64) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Door-Knob)

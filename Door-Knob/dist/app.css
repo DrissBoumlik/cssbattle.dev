@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191919;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .door-knob {
+  height: 160px;
+  width: 160px;
+  background-color: #824B20;
+  border-radius: 50%;
+  padding: 30px;
+  display: flex;
+}
+.wrapper .door-knob .circle {
+  height: 100%;
+  width: 100%;
+  background-color: #E08027;
+  border-radius: 50%;
+}
+.wrapper .door-knob .circle .border {
+  margin: -10px 0 0 -10px;
+  border-radius: 50%;
+  height: calc(100% + 20px);
+  width: calc(100% + 20px);
+  border: 20px solid;
+  border-color: transparent #FFF58F #FFF58F transparent;
+  transform: rotate(45deg);
+  position: relative;
+}
+.wrapper .door-knob .circle .border::before, .wrapper .door-knob .circle .border::after {
+  height: 20px;
+  width: 20px;
+  content: "";
+  position: absolute;
+  background-color: #FFF58F;
+  border-radius: 50%;
+}
+.wrapper .door-knob .circle .border::before {
+  left: -6px;
+  top: 81%;
+}
+.wrapper .door-knob .circle .border::after {
+  right: -7px;
+  top: -5%;
+}
