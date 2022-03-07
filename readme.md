@@ -26,3 +26,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Equals - [Challenge Link](https://cssbattle.dev/play/31) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Equals)
 * Bell - [Challenge Link](https://cssbattle.dev/play/68) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Bell)
 * Door-Knob - [Challenge Link](https://cssbattle.dev/play/64) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Door-Knob)
+* Max-Volume - [Challenge Link](https://cssbattle.dev/play/65) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Max-Volume)

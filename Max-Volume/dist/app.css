@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191919;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  display: flex;
+  column-gap: 20px;
+}
+.wrapper .speaker {
+  height: 0;
+  width: 0;
+  border: 100px solid;
+  border-color: transparent #5DBCF9 transparent transparent;
+  position: relative;
+  transform: translateX(-50%);
+}
+.wrapper .speaker::after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  background-color: #5DBCF9;
+  top: -25px;
+  left: -25px;
+  border-radius: 10px;
+}
+.wrapper .waves {
+  position: absolute;
+  left: 25px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid;
+  border-color: #5DBCF9 #5DBCF9 transparent transparent;
+  transform: rotate(45deg);
+}
+.wrapper .waves::before, .wrapper .waves::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: 10px solid;
+  border-color: #5DBCF9 #5DBCF9 transparent transparent;
+}
+.wrapper .waves::before {
+  height: 72%;
+  width: 72%;
+  top: 9%;
+  left: 9%;
+}
+.wrapper .waves::after {
+  height: 44%;
+  width: 44%;
+  top: 22%;
+  left: 22%;
+}

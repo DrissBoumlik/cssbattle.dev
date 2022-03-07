@@ -1,0 +1,58 @@
+$dark: #191919
+$blue: #5DBCF9
+*
+    box-sizing: border-box
+body
+    background-color: $dark
+
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    height: 200px
+    display: flex
+    column-gap: 20px
+    .speaker
+        height: 0
+        width: 0
+        // background-color: $blue
+        border: 100px solid 
+        border-color: transparent $blue transparent transparent
+        position: relative
+        transform: translateX(-50%)
+        &::after
+            content: ''
+            position: absolute
+            height: 50px
+            width: 70px
+            background-color: $blue
+            top: -25px
+            left: -25px
+            border-radius: 10px
+    .waves
+        position: absolute
+        // background-color: rgba(red, 0.1)
+        left: 25px
+        height: 100%
+        width: 100%
+        border-radius: 50%
+        border: 10px solid
+        border-color: $blue $blue transparent transparent
+        transform: rotate(45deg)
+        &::before, &::after
+            content: ''
+            position: absolute
+            border-radius: 50%
+            border: 10px solid
+            border-color: $blue $blue transparent transparent
+        &::before
+            height: 72%
+            width: 72%
+            top: 9%
+            left: 9%
+        &::after
+            height: 44%
+            width: 44%
+            top: 22%
+            left: 22%
