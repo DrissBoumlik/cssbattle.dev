@@ -1,0 +1,38 @@
+$yellow: #998235
+$dark: #191919
+$white: #FFFFFF
+*
+    box-sizing: border-box
+body
+    background-color: $yellow
+
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .piano
+        border-radius: 10px
+        padding: 0 5px 5px
+        width: 180px
+        height: 100px
+        background-color: $dark
+        display: flex
+        justify-content: space-around
+        align-items: flex-end
+        column-gap: 5px
+        .bar
+            width: 20%
+            height: 74%
+            background-color: $white
+            border-radius: 5px
+            position: relative
+            z-index: 0
+            &:not(.bar-1st)::after
+                    content: ''
+                    height: 50%
+                    width: 75%
+                    position: absolute
+                    background-color: $dark
+                    left: calc(-2.5px - 40%)
+                    z-index: 3

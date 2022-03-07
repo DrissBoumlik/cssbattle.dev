@@ -1,0 +1,15 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        link(rel="stylesheet" href="app.css")
+        title
+    body
+        .wrapper
+            .piano
+                - var n = 0
+                while n++ < 7
+                    if n == 1 ||n == 4
+                        div(class='bar bar-1st bar-' + n)
+                    else
+                        div(class='bar bar-' + n)
