@@ -24,3 +24,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Building-Blocks - [Challenge Link](https://cssbattle.dev/play/87) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Building-Blocks)
 * Snowman - [Challenge Link](https://cssbattle.dev/play/97) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Snowman)
 * Equals - [Challenge Link](https://cssbattle.dev/play/31) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Equals)
+* Bell - [Challenge Link](https://cssbattle.dev/play/68) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Bell)

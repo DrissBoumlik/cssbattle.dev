@@ -1,0 +1,34 @@
+$dark: #191919
+$orange: #E08027
+$yellow: #F2AD43
+$brown: #824B20
+
+*
+    box-sizing: border-box
+body
+    background-color: $dark
+
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .bell
+        height: 120px
+        width: 120px
+        background-color: $orange
+        border-radius: 50% 50% 10px 10px
+        &::before, &::after
+            content: ''
+            height: 50px
+            width: 50px
+            position: absolute
+            border-radius: 50%
+            left: calc(50% - 25px)
+            z-index: -1
+        &::before
+            top: -24px
+            background-color: $yellow
+        &::after
+            bottom: -25px
+            background-color: $brown
