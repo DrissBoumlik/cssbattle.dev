@@ -1,0 +1,28 @@
+$yellow: #F3AC3C
+$green: #1A4341
+*
+    box-sizing: border-box
+body
+    background-color: $green
+
+.wrapper
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    background-color: $green
+    display: flex
+    flex-wrap: wrap
+    .shape
+        width: 50%
+        height: 50%
+        background-color: $yellow
+        &.shape-1
+            border-radius: 0 0 100px 0
+        &.shape-2
+            border-radius: 0 0 0 100px
+        &.shape-3
+            border-radius: 0 100px 0 0
+        &.shape-4
+            border-radius: 100px 0 0 0

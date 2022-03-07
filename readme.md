@@ -28,3 +28,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Door-Knob - [Challenge Link](https://cssbattle.dev/play/64) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Door-Knob)
 * Max-Volume - [Challenge Link](https://cssbattle.dev/play/65) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Max-Volume)
 * Piano - [Challenge Link](https://cssbattle.dev/play/80) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Piano)
+* Suffocate - [Challenge Link](https://cssbattle.dev/play/29) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Suffocate)
