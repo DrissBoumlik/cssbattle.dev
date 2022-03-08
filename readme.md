@@ -34,3 +34,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Eye-of-the-Tiger - [Challenge Link](https://cssbattle.dev/play/16) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Eye-of-the-Tiger)
 * Cups-&-Balls - [Challenge Link](https://cssbattle.dev/play/28) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Cups-&-Balls)
 * Horizon - [Challenge Link](https://cssbattle.dev/play/30) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Horizon)
+* Simply-Square - [Challenge Link](https://cssbattle.dev/play/1) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Simply-Square)
