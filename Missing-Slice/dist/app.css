@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E3516E;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .cake {
+  height: 0px;
+  width: 0px;
+  border-radius: 50%;
+  border: 100px solid;
+  border-color: #51B5A9 #FADE8B #E3516E #F7F3D7;
+  transform: rotate(-45deg);
+}

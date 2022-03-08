@@ -37,3 +37,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Simply-Square - [Challenge Link](https://cssbattle.dev/play/1) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Simply-Square)
 * Ups-and-Downs - [Challenge Link](https://cssbattle.dev/play/4) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Ups-and-Downs)
 * Cloaked-Spirits - [Challenge Link](https://cssbattle.dev/play/10) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Cloaked-Spirits)
+* Missing-Slice - [Challenge Link](https://cssbattle.dev/play/6) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Missing-Slice)

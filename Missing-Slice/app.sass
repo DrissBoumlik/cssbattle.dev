@@ -1,0 +1,20 @@
+$red: #E3516E
+$white: #F7F3D7
+$green: #51B5A9
+$yellow: #FADE8B
+*
+    box-sizing: border-box
+body
+    background-color: $red
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .cake
+        height: 0px
+        width: 0px
+        border-radius: 50%
+        border: 100px solid
+        border-color: $green $yellow $red $white
+        transform: rotate(-45deg)
