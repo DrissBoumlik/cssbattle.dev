@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A4341;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .virus-circle {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: #F3AC3C;
+  border-radius: 50%;
+}
+.wrapper .virus-circle .mark {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #998235;
+}
+.wrapper .virus-circle .mark.mark-1 {
+  height: 20px;
+  width: 20px;
+  top: 65%;
+  left: 40%;
+}
+.wrapper .virus-circle .mark.mark-2 {
+  right: 20%;
+  top: 20%;
+  height: 10px;
+  width: 10px;
+}
+.wrapper .virus-circle .mark.mark-3 {
+  top: 20%;
+  left: 20%;
+  height: 30px;
+  width: 30px;
+}
+.wrapper .stick {
+  width: 10px;
+  height: 180%;
+  position: absolute;
+  background-color: #F3AC3C;
+  border-radius: 5px;
+}
+.wrapper .stick.stick-1 {
+  left: calc(50% - 5px);
+  top: -50%;
+  background-color: #F3AC3C;
+}
+.wrapper .stick.stick-2 {
+  background-color: #F3AC3C;
+  transform: rotate(-60deg);
+  top: -35%;
+  left: 54%;
+}
+.wrapper .stick.stick-3 {
+  transform: rotate(60deg);
+  background-color: #F3AC3C;
+  top: -45%;
+  right: 36%;
+}

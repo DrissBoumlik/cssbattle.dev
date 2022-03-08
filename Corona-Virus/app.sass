@@ -1,0 +1,57 @@
+$green: #1A4341
+$yellow: #F3AC3C
+$oil: #998235
+*
+    box-sizing: border-box
+body
+    background-color: $green
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .virus-circle
+        position: relative
+        height: 100px
+        width: 100px
+        background-color: $yellow
+        border-radius: 50%
+        .mark
+            position: absolute
+            border-radius: 50%
+            background-color: $oil
+            &.mark-1
+                height: 20px
+                width: 20px
+                top: 65%
+                left: 40%
+            &.mark-2
+                right: 20%
+                top: 20%
+                height: 10px
+                width: 10px
+            &.mark-3
+                top: 20%
+                left: 20%
+                height: 30px
+                width: 30px
+    .stick
+        width: 10px
+        height: 180%
+        position: absolute
+        background-color: $yellow
+        border-radius: 5px
+        &.stick-1
+            left: calc(50% - 5px)
+            top: -50%
+            background-color: $yellow
+        &.stick-2
+            background-color: $yellow
+            transform: rotate(-60deg)
+            top: -35%
+            left: 54%
+        &.stick-3
+            transform: rotate(60deg)
+            background-color: $yellow
+            top: -45%
+            right: 36%
