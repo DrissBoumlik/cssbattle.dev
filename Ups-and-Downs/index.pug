@@ -1,0 +1,14 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        link(rel="stylesheet" href="app.css")
+        title
+    body
+        .wrapper
+            - var n = 0
+            while n++ < 3
+                if (n == 2)
+                    div(class='cup down cup-' + n)
+                else
+                    div(class='cup up cup-' + n)

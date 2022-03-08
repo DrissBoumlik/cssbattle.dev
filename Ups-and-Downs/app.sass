@@ -1,0 +1,23 @@
+$purple: #62306D
+$yellow: #F7EC7D
+*
+    box-sizing: border-box
+body
+    background-color: $purple
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+    height: 200px
+    .cup
+        height: 100px
+        width: 100px
+        background-color: $yellow
+        &.up
+            align-self: flex-end
+            border-radius: 0 0 50% 50%
+        &.down
+            align-self: flex-start
+            border-radius: 50% 50% 0 0
