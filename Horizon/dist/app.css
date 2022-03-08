@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.wrapper .line-1, .wrapper .line-2 {
+  height: calc(100% / 6);
+}
+.wrapper .line-3, .wrapper .line-4 {
+  height: calc(100% / 3);
+}
+.wrapper .line-1 {
+  background-color: #F7EC7D;
+}
+.wrapper .line-2 {
+  background-color: #E38F66;
+}
+.wrapper .line-3 {
+  background-color: #AA445F;
+}
+.wrapper .line-4 {
+  background-color: #62306D;
+}
