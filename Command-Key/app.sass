@@ -1,0 +1,41 @@
+$dark: #191919
+$blue: #5DBCF9
+
+*
+    box-sizing: border-box
+body
+    background-color: $dark
+.wrapper
+    position: absolute
+    left: 50.2%
+    top: 49.5%
+    transform: translate(-50%, -50%)
+    .box, .side
+        position: relative
+        height: 70px
+        width: 70px
+        border: 10px solid $blue
+    .side
+        border-color: transparent
+        position: absolute
+        &.side-1
+            left: -70px
+            top: -70px
+            border-color: $blue
+            z-index: 2
+            border-radius: 50% 50% 0 50%
+        &.side-2
+            border-color: $blue
+            right: -70px
+            top: -70px
+            border-radius: 50% 50% 50% 0
+        &.side-3
+            border-color: $blue
+            right: -70px
+            bottom: -70px
+            border-radius: 0 50% 50% 50%
+        &.side-4
+            border-color: $blue
+            left: -70px
+            bottom: -70px
+            border-radius: 50% 0 50% 50%
