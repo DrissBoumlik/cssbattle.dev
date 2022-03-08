@@ -31,3 +31,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Suffocate - [Challenge Link](https://cssbattle.dev/play/29) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Suffocate)
 * Command-Key - [Challenge Link](https://cssbattle.dev/play/63) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Command-Key)
 * Corona-Virus - [Challenge Link](https://cssbattle.dev/play/47) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Corona-Virus)
+* Eye-of-the-Tiger - [Challenge Link](https://cssbattle.dev/play/16) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Eye-of-the-Tiger)
