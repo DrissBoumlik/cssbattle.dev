@@ -1,0 +1,58 @@
+$dark: #222730
+$cian: #4CAAB3
+$grey: #393E46
+
+*
+    box-sizing: border-box
+body
+    background-color: $dark
+    padding: 0
+    margin: 0
+.wrapper
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    // transform: translate(-50%, -50%)
+    display: flex
+    justify-content: center
+    flex-direction: column
+    .tape
+        box-sizing: content-box
+        background-color: $cian
+        height: 150px
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+    .square
+        height: 250px
+        width: 250px
+        background-color: $cian
+        display: flex
+        justify-content: center
+        align-items: center
+        border: 50px solid $dark
+        transform: rotate(-45deg)
+        &::after
+            content: ''
+            height: 50px
+            width: 50px
+            background-color: $grey
+            border-radius: 50%
+            position: absolute
+    .side
+        height: 240px
+        width: 240px
+        position: absolute
+        transform: translateX(-50%) rotate(-45deg)
+        left: 50%
+        border: solid $dark
+        &.tape1
+            top: 95px //-115px
+            border-width: 100px 100px 0 0
+        &.tape2
+            bottom: 95px //-115px
+            border-width: 0 0 100px 100px
+            
