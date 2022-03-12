@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #161616;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .eye {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: #A22015;
+  border-radius: 50%;
+  border: 5px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.wrapper .eye::before {
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 50px;
+  border: 10px solid #E96A23;
+  border-radius: 50%;
+  background-color: #000000;
+}
+.wrapper .eye::after {
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border: 15px solid #000000;
+  border-radius: 50%;
+}
+.wrapper .eye .circle {
+  position: absolute;
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  border: 15.2px solid #000000;
+  border-radius: 50%;
+}
+.wrapper .eye .circle.circle-1 {
+  top: 2.2px;
+  left: -29px;
+}
+.wrapper .eye .circle.circle-2 {
+  top: 2.2px;
+  right: -29px;
+}
+.wrapper .eye .circle.circle-3 {
+  bottom: -40px;
+}

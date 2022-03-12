@@ -1,0 +1,56 @@
+$dark: #161616
+$red: #A22015
+$black: #000000
+$orange: #E96A23
+
+*
+    box-sizing: border-box
+body
+    background-color: $dark
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .eye
+        position: relative
+        height: 200px
+        width: 200px
+        background-color: $red
+        border-radius: 50%
+        border: 5px solid $black
+        display: flex
+        justify-content: center
+        align-items: center
+        overflow: hidden
+        &::before
+            position: absolute
+            content: ''
+            height: 50px
+            width: 50px
+            border: 10px solid $orange
+            border-radius: 50%
+            background-color: $black
+        &::after
+            content: ''
+            position: absolute
+            height: 70px
+            width: 70px
+            border: 15px solid $black
+            border-radius: 50% 
+        .circle
+            position: absolute
+            background-color: transparent
+            height: 100px
+            width: 100px
+            border: 15.2px solid $black
+            border-radius: 50% 
+            &.circle-1
+                top: 2.2px
+                left: -29px
+            &.circle-2
+                top: 2.2px
+                right: -29px
+            &.circle-3
+                bottom: -40px
+                
