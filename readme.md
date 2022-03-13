@@ -41,3 +41,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Tesseract - [Challenge Link](https://cssbattle.dev/play/9) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Tesseract)
 * Sharingan - [Challenge Link](https://cssbattle.dev/play/101) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Sharingan)
 * Eclipse - [Challenge Link](https://cssbattle.dev/play/90) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Eclipse)
+* Gift-Box - [Challenge Link](https://cssbattle.dev/play/99) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Gift-Box)

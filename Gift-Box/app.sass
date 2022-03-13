@@ -1,0 +1,39 @@
+$red: #AC474B
+$white: #FFFFFF
+*
+    box-sizing: border-box
+body
+    background-color: $red
+.wrapper
+    position: absolute
+    left: 50%
+    top: 60%
+    transform: translate(-50%, -50%)
+    .box
+        background-color: $white
+        height: 140px
+        width: 140px
+        display: flex
+        justify-content: center
+        &::before, &::after
+            content: ''
+            height: 20px
+            width: 20px
+            position: absolute
+            top: -60px
+            border: 10px solid $white
+        &::before
+            border-radius: 50% 50% 0 50%
+            transform: translateX(-38%)
+        &::after
+            border-radius: 50% 50% 50% 0
+            transform: translateX(38%)
+    .tape
+        height: 140px
+        width: 20px
+        background-color: $red
+        position: absolute
+        top: 0
+        left: calc(50% - 10px)
+        &.tape2
+            transform: rotate(90deg)
