@@ -1,0 +1,47 @@
+$green: #0E2E2C
+$yellow: #F3AC3C
+$oil: #998235
+*
+    box-sizing: border-box
+body
+    background-color: $green
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 160px
+    width: 160px
+    border: 8px solid $yellow
+    border-radius: 50%
+    &::before
+        content: ''
+        position: absolute
+        height: 200px
+        width: 200px
+        border: 6px solid $yellow
+        border-radius: 50%
+        box-sizing: border-box
+    .circle
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 40px
+        width: 40px
+        background-color: $yellow
+        border-radius: 50%
+        &::before, &::after
+            content: ''
+            position: absolute
+            border-radius: 50%
+        &::before
+            border: 12px solid $yellow
+            height: 56px
+            width: 56px
+        &::after
+            border: 10px solid $oil
+            height: 100px
+            width: 100px
