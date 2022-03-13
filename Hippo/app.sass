@@ -1,0 +1,76 @@
+$dark: #191919
+$brown: #A64942
+$orangered: #FE5F55
+$black: #000000
+*
+    box-sizing: border-box
+body
+    background-color: $dark
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .hippo
+        display: flex
+        align-items: center
+        flex-direction: column
+        &::before, &::after
+            content: ''
+            position: absolute
+            height: 25px
+            width: 10px
+            border-radius: 50%
+            background-color: $black
+            border: 5px solid $orangered
+            top: -4%
+            z-index: -1
+        &::before
+            left: 13%
+            transform: rotate(-45deg)
+        &::after
+            right: 13%
+            transform: rotate(45deg)
+            
+    .head
+        height: 150px
+        width: 130px
+        background-color: $orangered
+        border-radius: 60px
+        &::before, &::after
+            content: ''
+            position: absolute
+            height: 10px
+            width: 10px
+            border-radius: 50%
+            background-color: $black
+            top: 33%
+        &::before
+            left: 19%
+        &::after
+            right: 19%
+    .nose
+        height: 100px
+        width: 150px
+        background-color: $brown
+        position: absolute
+        border-radius: 55px 55px 45px 45px
+        bottom: -13%
+        &::before, &::after
+            content: ''
+            position: absolute
+            height: 30px
+            width: 20px
+            border-radius: 50%
+            background-color: $black
+            top: 20%
+        &::before
+            left: 16.5%
+            transform: rotate(45deg)
+        &::after
+            right: 17%
+            transform: rotate(-45deg)
+            
+            
+            
+            
