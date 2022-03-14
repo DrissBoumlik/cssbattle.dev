@@ -1,3 +1,5 @@
+<img src="assets/cssbattle.png" />
+
 # Css Battle Challenges
 
 A few suggested solutions for some cssbattle challenges
