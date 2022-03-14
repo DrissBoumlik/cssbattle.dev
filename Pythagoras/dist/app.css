@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D25B70;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 20px);
+  transform: translate(-50%, -50%);
+}
+.wrapper .box.box1 {
+  height: 60px;
+  width: 60px;
+  background-color: #6CB3A9;
+  transform-origin: bottom left;
+  transform: rotate(-53deg);
+  top: 80px;
+  position: relative;
+}
+.wrapper .box.box2 {
+  height: 80px;
+  width: 80px;
+  background-color: #F6DF96;
+  transform-origin: bottom right;
+  transform: rotate(37deg);
+  position: relative;
+  left: 20px;
+}
+.wrapper .box.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: #F7F3DA;
+}

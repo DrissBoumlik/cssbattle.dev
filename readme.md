@@ -44,3 +44,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Gift-Box - [Challenge Link](https://cssbattle.dev/play/99) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Gift-Box)
 * Hippo - [Challenge Link](https://cssbattle.dev/play/75) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Hippo)
 * Ripples - [Challenge Link](https://cssbattle.dev/play/94) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Ripples)
+* Pythagoras - [Challenge Link](https://cssbattle.dev/play/85) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Pythagoras)
