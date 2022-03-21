@@ -1,0 +1,37 @@
+$blue: #6592CF
+$darkblue: #243D83
+$yellow: #EEB850
+
+*
+    box-sizing: border-box
+body
+    background-color: $blue
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+    justify-content: center
+    align-items: center
+    .rectangle
+        height: 150px
+        width: 300px
+        background-color: $darkblue
+    .circle
+        height: 250px
+        width: 250px
+        border-radius: 50%
+        background-color: $darkblue
+        position: absolute
+        border: 50px solid $blue
+        display: flex
+        justify-content: center
+        align-items: center
+        &:after
+            content: ''
+            height: 50px
+            width: 50px
+            background-color: $yellow
+            position: absolute
+            border-radius: 50%
