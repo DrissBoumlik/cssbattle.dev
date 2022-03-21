@@ -49,3 +49,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Pythagoras - [Challenge Link](https://cssbattle.dev/play/85) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Pythagoras)
 * Junction - [Challenge Link](https://cssbattle.dev/play/84) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Junction)
 * Carrom - [Challenge Link](https://cssbattle.dev/play/2) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Carrom)
+* Interleaved - [Challenge Link](https://cssbattle.dev/play/36) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Interleaved)

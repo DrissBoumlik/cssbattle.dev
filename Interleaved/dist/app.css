@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A4341;
+}
+
+.wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper .stick {
+  height: calc(50% + 50px);
+  width: 50px;
+}
+.wrapper .stick.stick1, .wrapper .stick.stick3, .wrapper .stick.stick5 {
+  border-radius: 30px 30px 0 0;
+  background-color: #F3AC3C;
+  align-self: flex-end;
+}
+.wrapper .stick.stick2, .wrapper .stick.stick4 {
+  border-radius: 0 0 30px 30px;
+  background-color: #998235;
+}
