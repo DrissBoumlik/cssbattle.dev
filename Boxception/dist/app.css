@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F3AC3C;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .box1 {
+  height: 200px;
+  width: 200px;
+  background-color: #1A4341;
+}
+.wrapper .box2 {
+  height: 100px;
+  width: 100px;
+  background-color: #998235;
+  position: absolute;
+  bottom: 0;
+}
+.wrapper .box3 {
+  height: 50px;
+  width: 50px;
+  background-color: #F3AC3C;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
