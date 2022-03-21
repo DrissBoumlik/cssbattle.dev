@@ -1,0 +1,25 @@
+$brown: #62374E
+$yellow: #FDC57B
+
+*
+    box-sizing: border-box
+body
+    background-color: $brown
+    
+    .square
+        height: 50px
+        width: 50px
+        background-color: $yellow
+        position: absolute
+        &.square1
+            top: 50px
+            left: 50px
+        &.square2
+            top: 50px
+            right: 50px
+        &.square3
+            left: 50px
+            bottom: 50px
+        &.square4
+            right: 50px
+            bottom: 50px

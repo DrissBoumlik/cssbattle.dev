@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #62374E;
+}
+body .square {
+  height: 50px;
+  width: 50px;
+  background-color: #FDC57B;
+  position: absolute;
+}
+body .square.square1 {
+  top: 50px;
+  left: 50px;
+}
+body .square.square2 {
+  top: 50px;
+  right: 50px;
+}
+body .square.square3 {
+  left: 50px;
+  bottom: 50px;
+}
+body .square.square4 {
+  right: 50px;
+  bottom: 50px;
+}
