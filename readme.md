@@ -47,3 +47,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Hippo - [Challenge Link](https://cssbattle.dev/play/75) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Hippo)
 * Ripples - [Challenge Link](https://cssbattle.dev/play/94) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Ripples)
 * Pythagoras - [Challenge Link](https://cssbattle.dev/play/85) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Pythagoras)
+* Junction - [Challenge Link](https://cssbattle.dev/play/84) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Junction)
