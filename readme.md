@@ -55,3 +55,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Supernova - [Challenge Link](https://cssbattle.dev/play/83) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Supernova)
 * Pastel-Logo - [Challenge Link](https://cssbattle.dev/play/53) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Pastel-Logo)
 * Windmill - [Challenge Link](https://cssbattle.dev/play/55) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Windmill)
+* Wash-Your-Hands - [Challenge Link](https://cssbattle.dev/play/48) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Wash-Your-Hands)

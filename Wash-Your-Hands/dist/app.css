@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #293462;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 10px);
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 200px;
+  background-color: #A64942;
+  border-radius: 20px;
+}
+.wrapper::before {
+  content: "";
+  position: absolute;
+  background-color: #FE5F55;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: -20px;
+  border-radius: 20px;
+}
+.wrapper::after {
+  content: "";
+  position: absolute;
+  background-color: #A64942;
+  width: 70%;
+  height: 40%;
+  border-radius: 20px;
+  left: 15%;
+  top: 10%;
+}

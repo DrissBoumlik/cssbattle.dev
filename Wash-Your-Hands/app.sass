@@ -1,0 +1,34 @@
+$purple: #293462
+$orangered: #FE5F55
+$brown: #A64942
+*
+    box-sizing: border-box
+body
+    background-color: $purple
+.wrapper
+    position: absolute
+    left: 50%
+    top: calc(50% + 10px)
+    transform: translate(-50%, -50%)
+    height: 100px
+    width: 200px
+    background-color: $brown
+    border-radius: 20px
+    &::before
+        content: ''
+        position: absolute
+        background-color: $orangered
+        height: 100%
+        width: 100%
+        z-index: -1
+        top: -20px
+        border-radius: 20px
+    &::after
+        content: ''
+        position: absolute
+        background-color: $brown
+        width: 70%
+        height: 40%
+        border-radius: 20px
+        left: 15%
+        top: 10%
