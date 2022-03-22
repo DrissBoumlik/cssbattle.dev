@@ -1,0 +1,25 @@
+$dark: #19191A
+$blue: #4F77FF
+$cian: #9AD5FF
+$yellow: #F9E492
+*
+    box-sizing: border-box
+body
+    background-color: $dark
+    .wrapper
+        position: absolute
+        left: 50%
+        top: 41.5%
+        transform: translate(-50%, -50%)
+        .box
+            border: 75px solid $blue
+            border-bottom-color: $cian
+            transform: rotate(45deg)
+            border-radius: 50%
+        &::before
+            content: ''
+            height: 125px
+            width: 75px
+            background-color: $yellow
+            position: absolute
+            top: 50%

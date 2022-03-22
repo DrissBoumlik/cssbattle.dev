@@ -53,3 +53,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Boxception - [Challenge Link](https://cssbattle.dev/play/23) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Boxception)
 * Push-Button - [Challenge Link](https://cssbattle.dev/play/3) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Push-Button)
 * Supernova - [Challenge Link](https://cssbattle.dev/play/83) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Supernova)
+* Pastel-Logo - [Challenge Link](https://cssbattle.dev/play/53) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Pastel-Logo)
