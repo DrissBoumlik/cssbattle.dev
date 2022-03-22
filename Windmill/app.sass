@@ -1,0 +1,38 @@
+$dark: #191919
+$yellow: #F9E492
+$blue: #4F77FF
+
+*
+    box-sizing: border-box
+body
+    background-color: $dark
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    // height: 200px
+    // width: 200px
+    .disk
+        width: 0
+        height: 0
+        border: 50px solid transparent
+        border-radius: 50%
+        position: absolute
+        transform: rotate(45deg)
+        &.disk1
+            top: -50px
+            left: -100px
+            border-color: $yellow transparent transparent $yellow
+        &.disk2
+            left: -50px
+            top: -100px
+            border-color: $blue $blue transparent transparent
+        &.disk3
+            right: -100px
+            bottom: -50px
+            border-color: transparent $yellow $yellow transparent
+        &.disk4
+            bottom: -100px
+            right: -50px
+            border-color: transparent transparent $blue $blue

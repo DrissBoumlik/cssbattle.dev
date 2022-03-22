@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191919;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .disk {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(45deg);
+}
+.wrapper .disk.disk1 {
+  top: -50px;
+  left: -100px;
+  border-color: #F9E492 transparent transparent #F9E492;
+}
+.wrapper .disk.disk2 {
+  left: -50px;
+  top: -100px;
+  border-color: #4F77FF #4F77FF transparent transparent;
+}
+.wrapper .disk.disk3 {
+  right: -100px;
+  bottom: -50px;
+  border-color: transparent #F9E492 #F9E492 transparent;
+}
+.wrapper .disk.disk4 {
+  bottom: -100px;
+  right: -50px;
+  border-color: transparent transparent #4F77FF #4F77FF;
+}
