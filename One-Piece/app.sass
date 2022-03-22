@@ -1,0 +1,78 @@
+$black: #000000
+$white: #FFFFFF
+
+*
+    box-sizing: border-box
+body
+    background-color: $black
+.wrapper
+    position: absolute
+    left: 50%
+    top: calc(50% + 10px)
+    transform: translate(-50%, -50%)
+    display: flex
+    justify-content: center
+    .bone
+        height: 20px
+        width: 20px
+        background-color: $white
+        position: absolute
+        &::before, &::after
+            content: ''
+            height: 25px
+            width: 25px
+            background-color: $white
+            position: absolute
+            border-radius: 50%
+            top: -90%
+        &::before
+            left: -50%
+        &::after
+            right: -50%
+        &.bone1
+            top: -7px
+            left: -12px
+            transform: rotate(-45deg)
+        &.bone2
+            bottom: -7px
+            left: -12px
+            transform: rotate(-135deg)
+        &.bone3
+            top: -7px
+            right: -12px
+            transform: rotate(45deg)
+        &.bone4
+            right: -12px
+            bottom: -7px
+            transform: rotate(135deg)
+    .skull
+        height: 100px
+        width: 150px
+        border-radius: 50px
+        background-color: $white
+        position: relative
+        &::before, &::after
+            content: ''
+            height: 50px
+            width: 40px
+            background-color: $black
+            position: absolute
+            border-radius: 50%
+            top: calc(50% - 25px)
+        &::before
+            left: 17%
+            transform: rotate(60deg)
+        &::after
+            right: 17%
+            transform: rotate(-60deg)
+    .teeth
+        display: flex
+        justify-content: center
+        column-gap: 5px
+        position: absolute
+        align-self: flex-end
+        bottom: -30px
+        .tooth
+            height: 20px
+            width: 15px
+            background-color: $white
