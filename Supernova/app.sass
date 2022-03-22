@@ -1,0 +1,43 @@
+$blue: #243D83
+$lightblue: #6592CF
+$yellow: #EEB850
+
+*
+    box-sizing: border-box
+body
+    background-color: $blue
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    height: 185px
+    width: 185px
+    &::after
+        content: ''
+        position: absolute
+        height: 60px
+        width: 60px
+        background-color: $yellow
+        border-radius: 50%
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
+    .disk
+        width: 0
+        height: 0
+        border: 50px solid
+        border-radius: 50%
+        position: absolute
+        &.disk1
+            border-color: $lightblue transparent transparent $lightblue
+        &.disk2
+            right: 0
+            border-color: $lightblue $lightblue transparent transparent
+        &.disk3
+            right: 0
+            bottom: 0
+            border-color: transparent $lightblue $lightblue transparent
+        &.disk4
+            bottom: 0
+            border-color: transparent transparent $lightblue $lightblue

@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #243D83;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 185px;
+  width: 185px;
+}
+.wrapper::after {
+  content: "";
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: #EEB850;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .disk {
+  width: 0;
+  height: 0;
+  border: 50px solid;
+  border-radius: 50%;
+  position: absolute;
+}
+.wrapper .disk.disk1 {
+  border-color: #6592CF transparent transparent #6592CF;
+}
+.wrapper .disk.disk2 {
+  right: 0;
+  border-color: #6592CF #6592CF transparent transparent;
+}
+.wrapper .disk.disk3 {
+  right: 0;
+  bottom: 0;
+  border-color: transparent #6592CF #6592CF transparent;
+}
+.wrapper .disk.disk4 {
+  bottom: 0;
+  border-color: transparent transparent #6592CF #6592CF;
+}
