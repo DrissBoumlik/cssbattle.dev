@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #BAC7CE;
+}
+body .front-head {
+  height: 200px;
+  width: 200px;
+  background-color: #475862;
+  position: relative;
+  transform: rotate(45deg);
+  left: calc(50% - 100px);
+  top: -158.5px;
+}
+body .eyes {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: -78px;
+  column-gap: 80px;
+}
+body .eyes .eye {
+  height: 120px;
+  width: 120px;
+  background-color: #000000;
+  border-radius: 50% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #000000;
+}
+body .eyes .eye.left {
+  transform: rotate(75deg);
+}
+body .eyes .eye.left .pupil {
+  box-shadow: inset 15px 5px 0px 0px #5A6042;
+}
+body .eyes .eye.right {
+  transform: rotate(15deg);
+}
+body .eyes .eye.right .pupil {
+  box-shadow: inset 5px 15px 0px 0px #5A6042;
+}
+body .eyes .eye .pupil {
+  position: relative;
+  background-color: #868A64;
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .eyes .eye .pupil::after {
+  content: "";
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  background-color: #4E2B24;
+  border-radius: 50%;
+  border: 5px solid #000000;
+}

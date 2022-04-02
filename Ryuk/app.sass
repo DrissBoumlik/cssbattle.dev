@@ -1,0 +1,59 @@
+$grey_light: #BAC7CE
+$grey: #475862
+$black: #000000
+$oil_light: #868A64
+$oil_dark: #5A6042
+$brown: #4E2B24
+
+*
+    box-sizing: border-box
+body
+    background-color: $grey_light
+    .front-head
+        height: 200px
+        width: 200px
+        background-color: $grey
+        position: relative
+        transform: rotate(45deg)
+        left: calc(50% - 100px)
+        top: -158.5px
+    .eyes
+        display: flex
+        justify-content: space-evenly
+        position: relative
+        top: -78px
+        column-gap: 80px
+        .eye
+            height: 120px
+            width: 120px
+            background-color: $black
+            border-radius: 50% 0
+            display: flex
+            justify-content: center
+            align-items: center
+            border: 5px solid $black
+            &.left
+                transform: rotate(75deg)
+                .pupil
+                    box-shadow: inset 15px 5px 0px 0px $oil_dark
+            &.right
+                transform: rotate(15deg)
+                .pupil
+                    box-shadow: inset 5px 15px 0px 0px $oil_dark
+            .pupil
+                position: relative
+                background-color: $oil_light
+                height: 90%
+                width: 90%
+                border-radius: 50%
+                display: flex
+                justify-content: center
+                align-items: center
+                &::after
+                    content: ""
+                    position: absolute
+                    height: 30%
+                    width: 30%
+                    background-color: $brown
+                    border-radius: 50%
+                    border: 5px solid $black
