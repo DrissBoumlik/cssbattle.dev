@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A4341;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .head {
+  transform: rotate(-45deg);
+}
+.wrapper .face {
+  border: 75px solid;
+  border-radius: 50%;
+  border-color: #998235 transparent transparent #998235;
+}
+.wrapper .face .eye {
+  height: 30px;
+  width: 30px;
+  background-color: #0B2429;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  top: 18px;
+  left: 60px;
+}
+.wrapper .beak {
+  border: 100px solid;
+  border-radius: 50%;
+  border-color: transparent transparent transparent #F3AC3C;
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  transform: rotate(180deg);
+}

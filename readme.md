@@ -58,3 +58,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Wash-Your-Hands - [Challenge Link](https://cssbattle.dev/play/48) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Wash-Your-Hands)
 * One-Piece - [Challenge Link](https://cssbattle.dev/play/102) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/One-Piece)
 * Ryuk - [Challenge Link](https://cssbattle.dev/play/105) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Ryuk)
+* Birdie - [Challenge Link](https://cssbattle.dev/play/33) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Birdie)

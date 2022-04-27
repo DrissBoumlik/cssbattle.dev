@@ -1,0 +1,39 @@
+$green: #1A4341
+$oil: #998235
+$yellow: #F3AC3C
+$black: #0B2429
+
+*
+    box-sizing: border-box
+body
+    background-color: $green
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .head
+        transform: rotate(-45deg)
+    .face
+        border: 75px solid
+        border-radius: 50%
+        border-color: $oil transparent transparent $oil
+        .eye
+            height: 30px
+            width: 30px
+            background-color: $black
+            border-radius: 50%
+            z-index: 1
+            position: absolute
+            top: 18px
+            left: 60px
+            
+    .beak
+        border: 100px solid
+        border-radius: 50%
+        border-color: transparent transparent transparent $yellow
+        position: absolute
+        right: -25px
+        top: -25px
+        transform: rotate(180deg)
+        
