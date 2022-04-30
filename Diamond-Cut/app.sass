@@ -1,0 +1,36 @@
+$orange: #F3AC3C
+$oil: #998235
+$green: #1A4341
+
+*
+    box-sizing: border-box
+body
+    background-color: $orange
+.wrapper
+    position: absolute
+    left: 49.5%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .square
+        position: relative
+        transform: rotateZ(45deg)
+        height: 160px
+        width: 160px
+        border: 30px solid $oil
+        display: flex
+        justify-content: center
+        align-items: center
+        &::before, &::after
+            content: ''
+            position: absolute
+            height: 30px
+            width: 30px
+            background-color: $orange
+        &::before
+            left: -30px
+        &::after
+            top: -30px
+        .central-square
+            height: 30px
+            width: 30px
+            background-color: $green
