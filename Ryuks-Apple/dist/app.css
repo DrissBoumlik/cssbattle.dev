@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .apple {
+  height: 120px;
+  width: 160px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapper .apple .side {
+  position: absolute;
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  background-color: #D4392D;
+  border-radius: 50%;
+}
+.wrapper .apple .left {
+  transform: rotateZ(-30deg);
+  left: 0px;
+}
+.wrapper .apple .left::before, .wrapper .apple .left::after {
+  position: absolute;
+  content: "";
+  height: 45%;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #000000;
+  transform: rotateZ(30deg);
+}
+.wrapper .apple .left::before {
+  left: 3px;
+  top: -5px;
+}
+.wrapper .apple .left::after {
+  left: -15px;
+  bottom: 40px;
+}
+.wrapper .apple .right {
+  right: 0px;
+  transform: rotateZ(30deg);
+}
+.wrapper .apple .stick {
+  position: absolute;
+  top: -20px;
+  width: 10px;
+  height: 50%;
+  background-color: #D4392D;
+  left: calc(50% - 5px);
+}

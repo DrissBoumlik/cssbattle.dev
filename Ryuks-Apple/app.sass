@@ -1,0 +1,53 @@
+$black: #000000
+$red: #D4392D
+
+*
+    box-sizing: border-box
+body
+    background-color: $black
+.wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    .apple
+        // background: gray
+        height: 120px
+        width: 160px
+        // display: flex
+        margin: 0 auto
+        text-align: center
+        .side
+            position: absolute
+            display: inline-block
+            width: 60%
+            height: 100%
+            background-color: $red
+            border-radius: 50%
+        .left
+            transform: rotateZ(-30deg)
+            left: 0px
+            &::before, &::after
+                position: absolute
+                content: ''
+                height: 45%
+                width: 45px
+                border-radius: 50%
+                background-color: $black
+                transform: rotateZ(30deg)
+            &::before
+                left: 3px
+                top: -5px
+            &::after
+                left: -15px
+                bottom: 40px
+        .right
+            right: 0px
+            transform: rotateZ(30deg)
+        .stick
+            position: absolute
+            top: -20px
+            width: 10px
+            height: 50%
+            background-color: $red
+            left: calc(50% - 5px)
