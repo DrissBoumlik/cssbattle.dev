@@ -64,3 +64,4 @@ Visit [css-battle](https://cssbattle.dev/) website for more challenges
 * Reflection - [Challenge Link](https://cssbattle.dev/play/91) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Reflection)
 * Ryuks-Apple - [Challenge Link](https://cssbattle.dev/play/106) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Ryuks-Apple)
 * Mandala - [Challenge Link](https://cssbattle.dev/play/96) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Mandala)
+* Sunrays - [Challenge Link](https://cssbattle.dev/play/110) / [Solution Link](https://github.com/DrissBoumlik/cssbattle.dev/tree/master/Sunrays)

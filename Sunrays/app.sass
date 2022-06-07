@@ -1,0 +1,32 @@
+$red: #D25B70
+$yellow: #F2E09F
+$offset: 20px
+*
+    box-sizing: border-box
+body
+    background-color: $red
+.wrapper
+    position: absolute
+    left: 48.7%
+    top: 33%
+    transform: translate(-50%, -50%)
+    .line
+        height: 100px
+        width: 10px
+        background-color: $yellow
+        position: absolute
+        border-radius: 5px
+        transform: translateY(-$offset)
+        transform-origin: bottom
+    .line1
+        transform: rotate(90deg) translateY(100px + $offset)
+    .line7
+        transform: rotate(90deg) translateY(-$offset)
+    .line2
+        transform: rotate(-60deg) translateY(-$offset)
+    .line3
+        transform: rotate(-30deg) translateY(-$offset)
+    .line5
+        transform: rotate(30deg) translateY(-$offset)
+    .line6
+        transform: rotate(60deg) translateY(-$offset)
